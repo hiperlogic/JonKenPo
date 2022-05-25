@@ -11,6 +11,16 @@ Item {
         color: verde
     }
 
+    Label {
+        anchors.top: parent.top
+        anchors.topMargin: 100
+        anchors.horizontalCenter: parent.horizontalCenter
+        color: roxo
+        font.bold: true
+        font.pointSize: 15
+        text: qsTr("Clique no Ícone ou Aguarde")
+    }
+
     MouseArea {
         id: resultScreen
         height: 100

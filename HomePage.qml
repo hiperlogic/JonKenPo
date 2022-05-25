@@ -15,6 +15,7 @@ Item {
         id: logoGamegesis
         source: "qrc:/Images/Images/LOGO_GAMEGESIS_TRANSPARENTE_COM_BORDA.png"
         anchors.top: parent.top
+        antialiasing: true
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.topMargin: 150
         width: 150
@@ -25,6 +26,8 @@ Item {
         id: btnStartGame
         anchors.centerIn: parent
         width: 200
+        font.bold: true
+        font.pointSize: 15
         text: qsTr("Iniciar")
 
         palette.buttonText: "white"
@@ -44,6 +47,7 @@ Item {
 
     Label {
         anchors.bottom: parent.bottom
+        anchors.bottomMargin: 50
         anchors.horizontalCenter: parent.horizontalCenter
         color: verde
         font.bold: true
