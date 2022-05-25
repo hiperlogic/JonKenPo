@@ -5,7 +5,13 @@ ApplicationWindow {
     width: 360
     height: 640
     visible: true
-    title: qsTr("JonKenPo")
+    title: qsTr("Jon Ken Po")
+
+    property int winCount: 0
+    property int lossCount: 0
+
+    property string roxo: "#aa7ab6"
+    property string verde: "#a5d386"
 
     SwipeView {
         id: swipeView
@@ -24,5 +30,6 @@ ApplicationWindow {
         EndPage {
             id: endPage
         }
+
     }
 }

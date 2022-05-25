@@ -1,7 +1,7 @@
 QT += quick
 
 SOURCES += \
-        main.cpp
+    main.cpp
 
 resources.files = main.qml 
 resources.prefix = /$${TARGET}
