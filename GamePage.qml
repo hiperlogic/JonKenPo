@@ -10,7 +10,7 @@ Item {
     property var botOption: ""
     property int winState: 0  //0: invalid || 1: Draw || 2: player win || 3: player lose
 
-    property var resultImages: ["","qrc:/Images/drawImg.png","qrc:/Images/winImg.png","qrc:/Images/losImg.png"]
+    property var resultImages: ["","qrc:/Images/Images/drawImg.png","qrc:/Images/Images/winImg.png","qrc:/Images/Images/losImg.png"]
 
     Rectangle {
         anchors.fill: parent

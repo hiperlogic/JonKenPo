@@ -16,19 +16,19 @@ Item {
             id: optionModel
 
             ListElement{
-                img: "qrc:/Images/rockImg.png"
+                img: "qrc:/Images/Images/rockImg.png"
                 value: "rock"
                 lose: "paper"
             }
 
             ListElement{
-                img: "qrc:/Images/paperImg.png"
+                img: "qrc:/Images/Images/paperImg.png"
                 value: "paper"
                 lose: "scissor"
             }
 
             ListElement{
-                img: "qrc:/Images/scissorImg.png"
+                img: "qrc:/Images/Images/scissorImg.png"
                 value: "scissor"
                 lose: "rock"
             }

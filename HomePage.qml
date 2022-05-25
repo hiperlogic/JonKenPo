@@ -13,7 +13,7 @@ Item {
 
     Image {
         id: logoGamegesis
-        source: "qrc:/Images/LOGO_GAMEGESIS_TRANSPARENTE_COM_BORDA.png"
+        source: "qrc:/Images/Images/LOGO_GAMEGESIS_TRANSPARENTE_COM_BORDA.png"
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.topMargin: 150

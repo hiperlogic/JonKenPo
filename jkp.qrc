@@ -1,18 +1,19 @@
 <RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
-        <file>HomePage.qml</file>
-        <file>GamePage.qml</file>
-        <file>EndPage.qml</file>
-        <file>PlayerPhase.qml</file>
+    <qresource prefix="/Images">
         <file>Images/drawImg.png</file>
+        <file>Images/LOGO_GAMEGESIS_TRANSPARENTE_COM_BORDA.png</file>
         <file>Images/losImg.png</file>
         <file>Images/paperImg.png</file>
         <file>Images/rockImg.png</file>
         <file>Images/scissorImg.png</file>
         <file>Images/winImg.png</file>
-        <file>Images/LOGO_GAMEGESIS_TRANSPARENTE_COM_BORDA.png</file>
+    </qresource>
+    <qresource prefix="/SCREENS">
+        <file>EndPage.qml</file>
+        <file>GamePage.qml</file>
+        <file>HomePage.qml</file>
+        <file>main.qml</file>
+        <file>PlayerPhase.qml</file>
         <file>ResultPhase.qml</file>
     </qresource>
-    <qresource prefix="/Images"/>
 </RCC>
