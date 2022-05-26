@@ -1,5 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
+import QtQuick.LocalStorage 2.15
+import "qrc:/CODE/Database.js" as JonKenPoSettings
 
 ApplicationWindow {
     width: 360
@@ -7,8 +9,8 @@ ApplicationWindow {
     visible: true
     title: qsTr("Jon Ken Po")
 
-    property int winCount: 0
-    property int lossCount: 0
+    property int winCount: JonKenPoSettings.dbGet("playerWin")
+    property int lossCount: JonKenPoSettings.dbGet("playerLoss")
 
     property string roxo: "#aa7ab6"
     property string verde: "#a5d386"
@@ -31,5 +33,9 @@ ApplicationWindow {
             id: endPage
         }
 
+    }
+
+    Component.onCompleted: {
+        JonKenPoSettings.dbInit()
     }
 }

@@ -1,5 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
+import QtQuick.LocalStorage 2.15
+import "qrc:/CODE/Database.js" as JonKenPoSettings
 
 Item {
     width:360
@@ -101,6 +103,12 @@ Item {
         }
 
         gameFrame.setCurrentIndex(1)
+        JonKenPoSettings.dbUpdate("playerWin", winCount)
+        JonKenPoSettings.dbSet("playerLoss", lossCount)
+    }
+
+    Component.onCompleted: {
+        JonKenPoSettings.dbInit()
     }
 
 }

@@ -16,4 +16,7 @@
         <file>PlayerPhase.qml</file>
         <file>ResultPhase.qml</file>
     </qresource>
+    <qresource prefix="/CODE">
+        <file>Database.js</file>
+    </qresource>
 </RCC>
